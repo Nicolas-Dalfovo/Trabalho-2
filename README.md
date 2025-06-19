@@ -1,16 +1,16 @@
-Seção 2: Executando o Backend (API Flask)
-O backend é responsável por gerenciar o banco de dados e fornecer os dados para o frontend através de uma API REST.
-2.1. Abra o Terminal para o Backend
+# 📚 Library System
 
-    Abra um novo terminal (Prompt de Comando, PowerShell, Terminal do macOS/Linux).
-    Navegue até o diretório raiz do backend. Este é o passo mais importante para evitar o erro ENOENT!
-    bash
+Sistema completo de biblioteca com **backend em Flask** e **frontend em React**, comunicando-se via API REST.
 
-    cd /caminho/para/onde/voce/descompactou/LibraryBackend/LibraryAPI
+---
 
-    Exemplo no Windows: cd C:\Projetos\Biblioteca\LibraryBackend\LibraryAPI Exemplo no Linux/macOS: cd ~/Projetos/Biblioteca/LibraryBackend/LibraryAPI
+## 🚀 Seção 2: Executando o Backend (API Flask)
 
-2.2. Crie e Ative o Ambiente Virtual
+O backend é responsável por gerenciar o banco de dados e fornecer dados para o frontend via API REST.
 
-    Um ambiente virtual isola as dependências do seu projeto Python, evitando conflitos com outros projetos.
-        Crie o ambiente virtual (use python3 se python não funcionar):
+### 2.1. Acesse o Diretório do Backend
+
+Abra um terminal (Prompt de Comando, PowerShell, Terminal do macOS/Linux) e navegue até o diretório raiz do backend:
+
+```bash
+cd /caminho/para/onde/voce/descompactou/LibraryBackend/LibraryAPI
